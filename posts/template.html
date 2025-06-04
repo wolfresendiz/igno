@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- TODO: Sustituye el título por el de tu entrada -->
+    <title>Título del post · Mi Blog</title>
+
+    <!-- Estilos globales -->
+    <link rel="stylesheet" href="/style.css" />
+    <!-- Canonical opcional para SEO si vas a personalizar la URL -->
+    <!-- <link rel="canonical" href="https://tu-usuario.github.io/posts/slug-del-post.html" /> -->
+  </head>
+  <body>
+    <header>
+      <h1><a href="/">Mi Blog</a></h1>
+      <nav>
+        <a href="/">Inicio</a>
+        <!-- En el futuro, podrías enlazar aquí un índice de todas las entradas -->
+      </nav>
+    </header>
+
+    <main>
+      <article>
+        <!-- Sustituye el H2 por el título real -->
+        <h2>Título del post</h2>
+        <!-- Actualiza la fecha en el atributo `datetime` (ISO‑8601) y en el texto -->
+        <p class="post-meta">
+          Publicado el <time datetime="2025-06-04">4&nbsp;de&nbsp;junio&nbsp;de&nbsp;2025</time>
+        </p>
+
+        <!-- Contenido del post -->
+        <section class="post-content">
+          <p>
+            Aquí va el contenido de tu entrada. Puedes usar cualquier etiqueta
+            HTML válida: <strong>párrafos</strong>, listas, imágenes, código,
+            etc.
+          </p>
+        </section>
+      </article>
+    </main>
+
+    <footer>
+      <p>&copy; <span id="year"></span> Wolfgang Resendiz</p>
+    </footer>
+
+    <!-- Lógica básica (año + tema oscuro) -->
+    <script src="/script.js" defer></script>
+  </body>
+</html>
