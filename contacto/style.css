@@ -1,0 +1,46 @@
+/* style.css */
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Tipografía global */
+body {
+  font-family: Consolas, monospace;
+  line-height: 1.5;
+}
+
+/* Estructura semántica */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header,
+main,
+footer {
+  width: 100%;
+}
+
+/* Navegación */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+/* Contenido principal */
+main#posts {
+  flex: 1;
+}
+
+/* Pie de página */
+footer {
+  text-align: center;
+  padding: 1rem 0;
+}
+

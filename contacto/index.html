@@ -11,12 +11,12 @@
       name="description"
       content="Blog personal de Wolfgang Reséndiz con HTML, CSS y JavaScript Vainilla"
     />
-    <title>igno.mx</title>
+    <title>Contacto Wolfgang Reséndiz</title>
 
     <!-- SEO -->
     <link
       rel="canonical"
-      href="https://igno.mx/index.html"
+      href="https://igno.mx/contacto"
     />
 
     <!-- Favicon y PWA -->
@@ -59,7 +59,7 @@
   <body>
     <!-- Encabezado principal -->
     <header>
-      <h1>igno.mx</h1>
+      <h1>igno.mx - contacto</h1>
 
       <!-- Navegación principal -->
       <nav aria-label="Menú principal">
@@ -75,13 +75,25 @@
     </header>
 
     <!-- Contenido principal -->
-    <main id="posts">
-      <article>
-        <h2>Hola</h2>
-        <p>
-          Ya sé, ya sé, este sitio está en construcción eterna
-        </p>
-      </article>
+    <main id="contacto">
+      <h2>contácteme en:</h2>
+      <ul>
+        <li>
+          <a href="https://x.com/WolfResendiz" target="_blank" rel="noopener">Twitter: @WolfResendiz</a>
+        </li>
+        <li>
+          <!-- Correo protegido con entidades HTML -->
+          <a href="mailto:&#119;&#111;&#108;&#102;&#103;&#97;&#110;&#103;&#46;&#114;&#101;&#115;&#101;&#110;&#100;&#105;&#122;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">
+            Correo electrónico
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/wolfgangresendiz/" target="_blank" rel="noopener">LinkedIn</a>
+        </li>
+        <li>
+          <a href="https://github.com/wolfresendiz" target="_blank" rel="noopener">GitHub</a>
+        </li>
+      </ul>
     </main>
 
     <!-- Pie de página -->
@@ -90,6 +102,7 @@
         <div class="contacto">
             <a href="/contacto/">Contacto</a>
         </div>
+        <x-analytics></x-analytics>
     </footer>
   </body>
 </html>
